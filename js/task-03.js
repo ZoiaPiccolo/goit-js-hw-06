@@ -49,7 +49,7 @@ const ListItem = images
 	.map(image => {
 		const url = image.url;
 		const alt = image.alt;
-		return `<li class ="gallery-item"><img src = "${url}" alt = ""${alt} width = 220></li>`;
+		return `<li class ="gallery-item"><img src = "${url}" alt = "${alt}" width = 220></li>`;
 	})
 	.join("");
 
